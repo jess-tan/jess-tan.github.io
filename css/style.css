@@ -22,16 +22,36 @@ img {
 	align-items: center;
 }
 
-.tile .title {
+.title {
+  font-size: 24px;
   margin-bottom: 10px;
   line-height: 1.3;
 }
 
-.tile .subtitle {
+.description {
+  font-size: 16px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
 
 .subtitle {
   line-height: 1.5;
+}
+
+.social {
+  display: flex;
+  margin-top: 20px;
+}
+.icon {
+  display: inline-block;
+  margin-right: 12px;
+  opacity: 0.5;
+}
+.icon:hover {
+  opacity: 0.75;
+}
+
+.tile {
+  margin-bottom: 28px;
+  padding: 12px;
 }

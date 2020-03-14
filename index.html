@@ -11,7 +11,6 @@
 
   <!-- style links -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-  <link href="css/hover-min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css">
 
   <!-- icons -->
@@ -35,26 +34,15 @@
   <!-- navigation -->
   <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
 
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://jesstan.me">
-        <img src="" width="50" height="50">
-      </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
     <div class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="https://jesstan.me">
+        <a class="navbar-item" href="#">
           Works
         </a>
-        <a class="navbar-item" href="https://jesstan.me/thoughts">
+        <a class="navbar-item" href="https://medium.com/@jess.tan">
           Thoughts
         </a>
-        <a class="navbar-item" href="https://jesstan.me/about">
+        <a class="navbar-item" href="about.html">
           About
         </a>
       </div>
@@ -66,8 +54,8 @@
   <section class="section">
     <div class="container">
       <h1 class="title">Hey, I'm Jess!</h1>
-      <h2 class="subtitle">
-        I’m a student & designer at the University of Pennsylvania studying Biology and Psychology. I’m passionate about experience design, healthcare technologies, and human behavior.
+      <h2 class="description">
+        I’m a student and designer at the University of Pennsylvania studying Biology and Psychology. I’m passionate about experience design, healthcare technologies, and human behavior.
       </h2>
     </div>
   </section>
@@ -75,38 +63,67 @@
   <!-- projects -->
   <section class="section">
     <div class="container">
+
+      <!-- row 1 -->
       <div class="tile is-ancestor">
-        <div class="tile is-parent hvr-float">
-          <article class="tile is-child box">
-            <a href="https://jesstan.me/penn-course-plan-redesign">
+
+        <!-- pcp -->
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <a href="https://medium.com/@jess.tan/the-design-of-penn-course-plan-c18da0f9cec9">
               <figure class="image">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c7d57619d414911f2272819/1573193961220-2ZKHYMC9KXQJCB7FFNCE/ke17ZwdGBToddI8pDm48kMIebV6MdNPQMcRDrC5oPxMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKctvtKxvFKvzGJ1i3etrw6jWr5XLgW84HmgctGrHIIy7VqiFIry_j_CAPMtj0TsXq-/pcp.png?format=1500w">
+                <img src="img/pcp.png">
               </figure>
             </a>
-            <a href="https://jesstan.me/penn-course-plan-redesign">
+            <a href="https://medium.com/@jess.tan/the-design-of-penn-course-plan-c18da0f9cec9">
               <p class="title">Penn Course Plan</p>
             </a>
-            <p class="subtitle">a mock scheduling and course planning web app for Penn undergraduates</p>
+            <p class="description">redesigned the entire interface for a tool that helps Penn undergraduates plan their courses and create mock schedules. </p>
             <div class="tags are-medium">
               <span class="tag">ui/ux</span>
+              <span class="tag">visual design</span>
               <span class="tag">web</span>
-              <span class="tag">branding</span>
             </div>
           </article>
         </div>
+
+        <!-- pca -->
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <a href="https://medium.com/@jess.tan/alert-management-for-penn-course-alert-5fa7a08a3348">
+              <figure class="image">
+                <img src="img/pca.png">
+              </figure>
+            </a>
+            <a href="https://medium.com/@jess.tan/alert-management-for-penn-course-alert-5fa7a08a3348">
+              <p class="title">Penn Course Alert</p>
+            </a>
+            <p class="description">designed a dashboard for managing alerts for course openings and data visualizations for course status history</p>
+            <div class="tags are-medium">
+              <span class="tag">ui/ux</span>
+              <span class="tag">visual design</span>
+              <span class="tag">web app</span>
+            </div>
+          </article>
+        </div>
+
       </div>
+
+      <!-- row 2 -->
       <div class="tile is-ancestor">
-        <div class="tile is-parent hvr-float">
-          <article class="tile is-child box">
+
+        <!-- dp -->
+        <div class="tile is-parent">
+          <article class="tile is-child">
             <a href="https://jesstan.me/dp-news-graphics">
               <figure class="image">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c7d57619d414911f2272819/1573193980003-JK4PHA5OP83OKEGC07HM/ke17ZwdGBToddI8pDm48kMIebV6MdNPQMcRDrC5oPxMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKctvtKxvFKvzGJ1i3etrw6jWr5XLgW84HmgctGrHIIy7VqiFIry_j_CAPMtj0TsXq-/dp.png?format=1500w">
+                <img src="img/dp.png">
               </figure>
             </a>
             <a href="https://jesstan.me/dp-news-graphics">
               <p class="title">DP News Graphics</p>
             </a>
-            <p class="subtitle">print infographics, data visualizations, news centerpieces, and social media visuals</p>
+            <p class="description">print infographics, data visualizations, news centerpieces, and social media visuals</p>
             <div class="tags are-medium">
               <span class="tag">editorial</span>
               <span class="tag">data viz</span>
@@ -114,29 +131,88 @@
             </div>
           </article>
         </div>
-        <div class="tile is-parent hvr-float">
-          <article class="tile is-child box">
+
+        <!-- spotify -->
+        <div class="tile is-parent">
+          <article class="tile is-child">
             <a href="https://jesstan.me/spotify-direct-music-sharing">
               <figure class="image">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c7d57619d414911f2272819/1574069009080-8IPYYSGG3IS9TV8786IS/ke17ZwdGBToddI8pDm48kMIebV6MdNPQMcRDrC5oPxMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKctvtKxvFKvzGJ1i3etrw6jWr5XLgW84HmgctGrHIIy7VqiFIry_j_CAPMtj0TsXq-/spotify.png?format=1500w">
+                <img src="img/spotify.png">
               </figure>
             </a>
             <a href="https://jesstan.me/spotify-direct-music-sharing">
               <p class="title">Direct Music Sharing on Spotify</p>
             </a>
-            <p class="subtitle">integrating features that foster meaningful daily interactions through music sharing</p>
+            <p class="description">integrating features that foster meaningful daily interactions through music sharing</p>
             <div class="tags are-medium">
               <span class="tag">ui/ux</span>
               <span class="tag">mobile</span>
-              <span class="tag">redesign</span>
+              <span class="tag">hackathon</span>
             </div>
           </article>
         </div>
+        
       </div>
+
+      <!-- row 3 -->
+      <div class="tile is-ancestor">
+
+        <!-- hg -->
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <a href="https://jesstan.me/dp-housing-guide-2019-1">
+              <figure class="image">
+                <img src="img/hg.png">
+              </figure>
+            </a>
+            <a href="https://jesstan.me/dp-housing-guide-2019-1">
+              <p class="title">DP Housing Guide</p>
+            </a>
+            <p class="description">led web design and visual identity for the Daily Pennsylvanian's annual housing guide</p>
+            <div class="tags are-medium">
+              <span class="tag">editorial</span>
+              <span class="tag">web</span>
+              <span class="tag">branding</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- year in review -->
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <a href="https://jesstan.me/2019-year-in-review">
+              <figure class="image">
+                <img src="img/year.png">
+              </figure>
+            </a>
+            <a href="https://jesstan.me/2019-year-in-review">
+              <p class="title">DP Housing Guide</p>
+            </a>
+            <p class="description">designed the Daily Pennsylvanian's 2019 Year in Review landing page</p>
+            <div class="tags are-medium">
+              <span class="tag">editorial</span>
+              <span class="tag">web</span>
+              <span class="tag">branding</span>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+      
+
     </div>
   </section>
 
-
+<!--footer-->
+  <footer class="footer">
+    <div>
+        <p>Let’s chat! Feel free to reach out at <a href="mailto:jytan@sas.upenn.edu" target="_blank" rel="noopener">jytan@sas.upenn.edu</a>.</p>
+    </div>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/jesstan4/" target="_blank" rel="noopener"><img alt="Linkedin" src="img/linkedin.svg" class="icon"></a>
+        <a href="https://medium.com/@jess.tan" target="_blank" rel="noopener"><img alt="Medium" src="img/medium.svg" class="icon"></a>
+    </div>
+</footer>
 
 </body>
 
