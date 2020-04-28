@@ -44,7 +44,7 @@ img {
 }
 .icon {
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 16px;
   opacity: 0.5;
 }
 .icon:hover {
