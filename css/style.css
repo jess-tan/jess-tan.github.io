@@ -7,13 +7,19 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   margin: 0 auto;
-  max-width: 60em;
+  max-width: 55em;
   font-family: 'Inter var', system-ui, sans-serif;
   line-height: 1.6;
 }
 
 img {
   margin-bottom: 28px;
+}
+
+.foot {
+  margin: 0 auto;
+  max-width: 90%;
+  font-family: 'Inter var', system-ui, sans-serif;
 }
 
 .center {
